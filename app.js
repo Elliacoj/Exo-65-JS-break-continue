@@ -7,6 +7,5 @@ for (let i = 0; i < classes.length; i++) {
     else if (i === (classes.length - 1)) {
         break
     }
-    let classe = classes[i];
-    classe.innerHTML = i;
+    classes[i].innerHTML = i;
 }
